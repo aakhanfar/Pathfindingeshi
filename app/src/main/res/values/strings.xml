@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Path finding eshi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="map">Map</string>
+    <string name="data">Data</string>
+    <string name="properties">Properties</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home fragment</string>
+    <string name="calculate_route">Calculate route</string>
+    <string name="starting_point">Starting point</string>
+    <string name="select_a_starting_point">Select starting point</string>
+    <string name="select_an_end_point">Select an end point</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+</resources>

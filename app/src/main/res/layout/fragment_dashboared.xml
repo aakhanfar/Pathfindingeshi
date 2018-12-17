@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rd.ahmad.pathfindingeshi.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textViewFrom"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:gravity="start"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSS"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_a_starting_point"
+            android:onClick="onClickSS"/>
+
+
+        <TextView
+            android:id="@+id/textViewTo"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:gravity="start"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSE"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_an_end_point"
+            android:onClick="onClickSE"/>
+
+        <Space
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:id="@+id/LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonCalculate"
+                android:layout_width="168dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/calculate_route"
+                android:onClick="onClickCL"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
